@@ -20,8 +20,7 @@ const AboutSection = () => {
                 <img src="/lovable-uploads/784a8bfd-3722-433d-a8c4-335a4d51a63a.png" alt="Profile" className="h-full w-full object-cover" />
               </div>
               
-              {/* Decorative element */}
-              <div className="absolute -bottom-4 -right-4 w-full h-full border-2 border-primary rounded-full -z-10"></div>
+              
             </div>
           </div>
         </div>

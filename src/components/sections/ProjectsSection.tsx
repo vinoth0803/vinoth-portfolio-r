@@ -9,7 +9,7 @@ const projects = [
   {
     id: 1,
     title: "TOWNMENT",
-    description: "Developed a structured residence & maintenance management system to streamline workflows. Focusing on backend development & API integration to enhance operational efficiency.",
+    description: "Developed a structured residence & maintenance management system to streamline workflows. Focusing on backend development & API integration to enhance operational efficiency. Credentials: admin / chillisauce321@gmail.com / Townment@admin123, tenant / user@example.com / user@123.",
     tags: ["PHP", "My SQL", "Tailwindcss", "Razorpay"],
     imageUrl: "/lovable-uploads/183b20b6-3289-476b-9295-f14a26c354b4.png",
     liveUrl: "https://vrishaba.com/vinoth/",
@@ -19,7 +19,7 @@ const projects = [
   {
     id: 2,
     title: "Budget Tracker",
-    description: "Developed a static budget tracker application to help users manage their finances effectively. Focused on frontend development using HTML, CSS, and JavaScript.",
+    description: "Developed a simple static budget tracker application to help users manage their finances effectively. Focused on frontend development using HTML, CSS, and JavaScript. Currently, the app is static and does not include backend functionality. It is designed to provide a user-friendly interface for tracking income and expenses.",
     tags: ["HTML", "Tailwindcss", "Javascript"],
     imageUrl: "/lovable-uploads/d808a752-7692-4425-bcf2-65164d448747.png",
     liveUrl: "https://vinoth0803.github.io/Budget-Tracker-App-Static/",
