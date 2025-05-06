@@ -40,10 +40,10 @@ const projects = [
     id: 5,
     title: "Portfolio Website",
     description: "Responsive portfolio website template with smooth animations and dark mode support.",
-    tags: ["React", "Tailwind CSS", "Framer Motion"],
+    tags: ["React", "Tailwind CSS", "Typescript", "shadcn /ui"],
     imageUrl: "/lovable-uploads/portfolio.jpg",
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/vinoth0803/vinoth-portfolio-r",
     category: "web"
   },
   {
