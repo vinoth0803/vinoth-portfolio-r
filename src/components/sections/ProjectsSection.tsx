@@ -42,7 +42,7 @@ const projects = [
     description: "Responsive portfolio website template with smooth animations and dark mode support.",
     tags: ["React", "Tailwind CSS", "Typescript", "shadcn /ui"],
     imageUrl: "/lovable-uploads/portfolio.jpg",
-    liveUrl: "#",
+    liveUrl: "https://vinoth-portfolio-r.vercel.app/",
     githubUrl: "https://github.com/vinoth0803/vinoth-portfolio-r",
     category: "web"
   },
