@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import ProjectCard from "../ProjectCard";
 
-type ProjectCategory = "all" | "web" | "backend";
+type ProjectCategory = "all" | "web" | "backend" | "beginner";
 
 const projects = [
   {
@@ -44,7 +44,7 @@ const projects = [
     imageUrl: "/lovable-uploads/portfolio.jpg",
     liveUrl: "https://vinoth-portfolio-r.vercel.app/",
     githubUrl: "https://github.com/vinoth0803/vinoth-portfolio-r",
-    category: "web"
+    category: "web" 
   },
   {
     id: 6,
@@ -52,9 +52,9 @@ const projects = [
     description: "Real-time weather application with location-based forecasts and interactive maps.",
     tags: ["JavaScript", "OpenWeather API", "Mapbox", "CSS3"],
     imageUrl: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    liveUrl: "#",
-    githubUrl: "#",
-    category: "web"
+    liveUrl: "https://weather-app-delta-mocha-38.vercel.app/",
+    githubUrl: "https://github.com/vinoth0803/weather-app",
+    category: "beginner"
   },
   {
     id: 7,
@@ -107,6 +107,13 @@ const ProjectsSection = () => {
               className="rounded-full"
             >
               Backend
+            </Button>
+            <Button 
+              variant={activeCategory === "beginner" ? "default" : "outline"}
+              onClick={() => setActiveCategory("beginner")}
+              className="rounded-full"
+            >
+              Beginner
             </Button>
           </div>
         </div>
