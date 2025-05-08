@@ -28,12 +28,12 @@ const projects = [
   },
   {
     id: 3,
-    title: "Finance Dashboard",
-    description: "Interactive finance dashboard with data visualization and portfolio management features.",
-    tags: ["JavaScript", "Next.js", "Chart.js", "MongoDB"],
-    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    title: "Gemini Clone Using React (under development)",
+    description: "A sleek Gemini clone built with React, featuring a modern interface and smooth user experience.",
+    tags: ["JavaScript", "React.js", "Gemini API", "Vite"],
+    imageUrl: "/lovable-uploads/gemini-bg.png",
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/vinoth0803/gemini-clone",
     category: "web"
   },
   {
@@ -66,6 +66,7 @@ const projects = [
     githubUrl: "https://github.com/vinoth0803/Instagram-Reel-Downloader",
     category: "backend"
   },
+  
 ];
 
 const ProjectsSection = () => {
