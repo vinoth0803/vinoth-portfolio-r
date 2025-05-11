@@ -30,11 +30,11 @@ const SkillsSection = () => {
     },
     {
       title: "Backend Development",
-      skills: ["Node.js(Familiar)", "Express (Familiar)", "MongoDB", "REST API", "Firebase", "Python"]
+      skills: ["Node.js(Familiar)", "Express (Familiar)", "MongoDB","My SQL", "REST API", "Firebase", "Python"]
     },
     {
       title: "Tools & Others",
-      skills: ["Git", "GitHub", "VS Code", "Figma", "Webpack", "Vercel"]
+      skills: ["Git", "GitHub", "VS Code", "Figma", "Webpack", "Vercel", "Netlify", "Postman", "Agile Methodologies"]
     },
     {
       title: "Soft Skills",
