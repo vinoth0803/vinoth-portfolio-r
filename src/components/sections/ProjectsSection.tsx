@@ -28,13 +28,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "Gemini Clone Using React (under development)",
-    description: "A sleek Gemini clone built with React, featuring a modern interface and smooth user experience.",
-    tags: ["JavaScript", "React.js", "Gemini API", "Vite"],
-    imageUrl: "/lovable-uploads/gemini-bg.png",
-    liveUrl: "#",
-    githubUrl: "https://github.com/vinoth0803/gemini-clone",
-    category: "web"
+    title: "Whatsapp-Birthday-Bot ",
+    description: "A Bot System that automates birthday wishes on WhatsApp using Nodejs and Cron scheduler. It sends personalized messages to contacts on their birthdays, enhancing user engagement and interaction.",
+    tags: ["node-cron", "google-sheets api", "Node.js", "venom bot"],
+    imageUrl: "/lovable-uploads/chat-bot-2.png",
+    liveUrl: "https://github.com/vinoth0803/whatsapp-birthday-bot",
+    githubUrl: "https://github.com/vinoth0803/whatsapp-birthday-bot",
+    category: "backend"
   },
   {
     id: 5,
