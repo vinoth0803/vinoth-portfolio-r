@@ -18,13 +18,20 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     
     return () => {
+      document.body.style.overflow = 'unset';
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
+  setMobileMenuOpen(!mobileMenuOpen);
+  // Prevent body scroll when menu is open
+  if (!mobileMenuOpen) {
+    document.body.style.overflow = 'hidden';
+  } else {
+    document.body.style.overflow = 'unset';
+  }
+};
 
   return (
     <header 
@@ -73,62 +80,66 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile menu overlay */}
-      {mobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 top-[72px] bg-background/95 backdrop-blur-lg z-40 animate-fade-in">
-          <div className="container mx-auto px-4 py-8">
-            <ul className="flex flex-col space-y-6 text-center">
-              <li>
-                <a 
-                  href="#about" 
-                  className="text-lg font-medium hover:text-primary transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="#skills" 
-                  className="text-lg font-medium hover:text-primary transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Skills
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="#projects" 
-                  className="text-lg font-medium hover:text-primary transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="#education" 
-                  className="text-lg font-medium hover:text-primary transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Education
-                </a>
-              </li>
-              <li>
-                <a 
-                  href="#contact" 
-                  className="text-lg font-medium hover:text-primary transition-colors"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  Contact
-                </a>
-              </li>
-              <li className="pt-4">
-                <Button className="w-full" onClick={() => window.open('/resume.pdf', '_blank')}>Resume</Button>
-              </li>
-            </ul>
-          </div>
-        </div>
-      )}
+      {/* Mobile menu overlay */}
+{/* Mobile menu overlay */}
+{mobileMenuOpen && (
+  <div className="md:hidden fixed inset-0 top-[72px] bg-white/95 backdrop-blur-md z-40 animate-fade-in">
+    <div className="container mx-auto px-4 py-8">
+      <ul className="flex flex-col space-y-6 text-center">
+        <li>
+          <a 
+            href="#about" 
+            className="text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a 
+            href="#skills" 
+            className="text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Skills
+          </a>
+        </li>
+        <li>
+          <a 
+            href="#projects" 
+            className="text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Projects
+          </a>
+        </li>
+        <li>
+          <a 
+            href="#education" 
+            className="text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Education
+          </a>
+        </li>
+        <li>
+          <a 
+            href="#contact" 
+            className="text-lg font-medium hover:text-primary transition-colors"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Contact
+          </a>
+        </li>
+        <li className="pt-4">
+          <Button className="w-full" onClick={() => setMobileMenuOpen(false)}>
+            Resume
+          </Button>
+        </li>
+      </ul>
+    </div>
+  </div>
+)}
     </header>
   );
 };
