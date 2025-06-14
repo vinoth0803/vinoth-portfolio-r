@@ -66,6 +66,16 @@ const projects = [
     githubUrl: "https://github.com/vinoth0803/Instagram-Reel-Downloader",
     category: "backend"
   },
+  {
+    id: 8,
+    title: "Job Admin Interface",
+    description: "A dynamic full-stack job listing platform designed to streamline job posting and discovery for both employers and job seekers. The platform features a user-friendly interface for employers to post job listings and manage applications, while job seekers can easily search and apply for jobs.",
+    tags: ["React", "Vite", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
+    imageUrl: "/lovable-uploads/job-admin-interface.png",
+    liveUrl: "https://job-frontend-nl1m.onrender.com/",
+    githubUrl: "https://github.com/vinoth0803/CMW-job-admin",
+    category: "backend"
+  }
   
 ];
 
