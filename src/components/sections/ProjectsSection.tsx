@@ -74,7 +74,7 @@ const projects = [
     imageUrl: "/lovable-uploads/job-admin-interface.png",
     liveUrl: "https://job-frontend-nl1m.onrender.com/",
     githubUrl: "https://github.com/vinoth0803/CMW-job-admin",
-    category: "backend"
+    category: "web"
   }
   
 ];
