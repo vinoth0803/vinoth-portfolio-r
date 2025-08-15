@@ -75,6 +75,16 @@ const projects = [
     liveUrl: "https://job-frontend-nl1m.onrender.com/",
     githubUrl: "https://github.com/vinoth0803/CMW-job-admin",
     category: "web"
+  },
+  {
+    id: 8,
+    title: "Personal Bio Link Page",
+    description: "A Personal Bio Link Page is a simple yet effective way to showcase your social media profiles, portfolio, and other important links in one place. It allows you to create a single link that directs visitors to all your relevant online presence.",
+    tags: ["React", "Vite", "Tailwind CSS", "shadcn/ui","Lovable"],
+    imageUrl: "/lovable-uploads/linkbio.png",
+    liveUrl: "https://linktree-vinothxai.vercel.app/",
+    githubUrl: "https://github.com/buildwithvinoth/linktree-vinothxai",
+    category: "web"
   }
   
 ];
